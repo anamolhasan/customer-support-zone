@@ -2,7 +2,7 @@ const TicketCard = ({ ticket, onAdd }) => {
   return (
     <button
       onClick={() => onAdd(ticket)}
-      className="border p-4 rounded shadow relative bg-white cursor-pointer shadow-2xl hover:shadow-amber-50"
+      className=" p-4 rounded-md shadow relative bg-white cursor-pointer shadow-2xl hover:shadow-gray-500"
     >
       <div className="flex justify-between">
         <h3 className="font-bold text-lg text-black">{ticket.title}</h3>

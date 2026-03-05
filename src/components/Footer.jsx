@@ -1,8 +1,12 @@
+import FooterBottom from "./FooterBottom";
+import FooterContent from "./FooterContent";
+
 const Footer = () => {
   return (
-    <footer className="text-center py-4 bg-gray-200 mt-6">
-      © 2024 Customer Support Zone
-    </footer>
+    <div>
+      <FooterContent />
+      <FooterBottom />
+    </div>
   );
 };
 

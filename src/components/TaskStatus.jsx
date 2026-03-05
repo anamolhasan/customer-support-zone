@@ -5,10 +5,10 @@ const TaskStatus = ({ tasks, onComplete }) => {
 
       {tasks.map(task => (
         <div key={task.id} className="mb-2">
-          <p>{task.title}</p>
+          <p className="font-medium">{task.title}</p>
           <button
             onClick={() => onComplete(task)}
-            className="bg-blue-500 text-white px-3 py-1 rounded mt-1"
+            className="bg-green-700 cursor-pointer btn-block text-white px-3 py-1 rounded mt-1"
           >
             Complete
           </button>
