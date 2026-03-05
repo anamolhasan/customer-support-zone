@@ -2,16 +2,16 @@
   {
     "id": 1,
     "title": "Login page error",
-    "description": "Users are unable to login with correct credentials.",
+    "description": "Customer unable to login despite using correct credentials; reset password attempts fail repeatedly with no success.",
     "customer": "Rahim",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-01T10:15:00Z"
   },
   {
     "id": 2,
     "title": "Profile update not saving",
-    "description": "Changes in profile info are not being stored.",
+    "description": "Payment attempts keep failing due to card being declined, balance insufficient, or gateway timeout issues.",
     "customer": "Karim",
     "priority": "Medium",
     "status": "Pending",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Payment gateway timeout",
-    "description": "Transactions fail due to timeout errors.",
+    "description": "User cannot download January invoice from the billing section; download button shows error and file missing.",
     "customer": "Salma",
     "priority": "High",
     "status": "In-Progress",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Dashboard stats incorrect",
-    "description": "The dashboard shows wrong number of orders.",
+    "description": "TDashboard statistics show incorrect data; order counts and revenue numbers are mismatched across different pages.",
     "customer": "Amina",
     "priority": "Low",
     "status": "Resolved",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Email notifications not sent",
-    "description": "Customers do not receive order confirmation emails.",
+    "description": "Email notifications not being sent to customers after order confirmation or password reset requests fail.",
     "customer": "Jamil",
     "priority": "High",
     "status": "Pending",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Search feature slow",
-    "description": "Searching for products takes more than 10 seconds.",
+    "description": "Product search function is very slow; results take more than 10 seconds to display on the page.",
     "customer": "Farida",
     "priority": "Medium",
     "status": "In-Progress",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Password reset link broken",
-    "description": "Reset password emails contain invalid link.",
+    "description": "Password reset link in emails is broken; users cannot reset their account passwords successfully online.",
     "customer": "Rahman",
     "priority": "High",
     "status": "Resolved",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "Mobile layout issues",
-    "description": "The website layout breaks on smaller screens.",
+    "description": "Website layout breaks on mobile devices; buttons, images, and text overlap in small screen resolutions.",
     "customer": "Nabila",
     "priority": "Medium",
     "status": "Pending",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "title": "Incorrect invoice amount",
-    "description": "Invoices show wrong total for some orders.",
+    "description": "Invoices display wrong totals; some discounts or taxes are not applied correctly in customer billing.",
     "customer": "Hasan",
     "priority": "High",
     "status": "In-Progress",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "title": "Slow image upload",
-    "description": "Uploading product images takes too long.",
+    "description": "Uploading images for products takes excessive time, sometimes failing to complete, frustrating the user.",
     "customer": "Rina",
     "priority": "Low",
     "status": "Pending",

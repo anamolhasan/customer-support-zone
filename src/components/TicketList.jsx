@@ -8,6 +8,7 @@ const TicketList = ({ tickets, onAdd }) => {
           key={ticket.id}
           ticket={ticket}
           onAdd={onAdd}
+          
         />
       ))}
     </div>
